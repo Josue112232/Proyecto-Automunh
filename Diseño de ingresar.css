@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+
+}
+
+html, button {
+    height: 60%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-grande {
+    font-size: 100px; /*32 3s el tamaño del texto */
+    color: red;
+    text-align: center;
+    height: 100px;
+}
+.color-para-el-texto {
+    color: blue;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.boton {
+    padding: 12px 12px;
+    font-size: 16px;
+
+
+}
+
+button {
+    border: 0; /*botón sin borde*/
+    background-image: linear-gradient(  /*imagen de fondo*/
+        150deg,
+        #9500ff,
+        #09f,
+        #0df);
+    border-radius: 8px; /*Botón redondeado*/
+    color: white; /*Color de letra del botón*/
+    display: flex; /*Caja flexsible*/
+    font-size: 22px; /*Tamaño del texto del botón*/
+    padding: 6px; /*Tamaño del Botón*/
+    cursor: pointer; /*Cambiar cursor cuando se pone en sima*/
+    transition: .3s; /*Milisegundos*/
+
+
+}
+
+button span {  /*Estilar el span del botón*/
+    background-color: skyblue; /*Fondo negro*/
+    padding: 12px 30px; /*Vertical y horizontal*/
+    border-radius: 6px; /*Borde interior redondeado*/
+    transition: .3s; 
+
+}
+
+button:hover span { /*Cuando tengamos el puntero encima del boyón el span va a quitar el fondo*/
+    background: none; /*Elimina cualquier fondo*/
+}
+
+button:active { /*Cuando el boton este activo va a cambiar la escala haciendo que el color se mueba a lo ancho y alto*/
+    transform: scale(0.9);
+
+}
+
+a {
+    color: skyblue;
+}
+
+
+

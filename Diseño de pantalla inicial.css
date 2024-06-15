@@ -1,0 +1,17 @@
+header {
+    background-color: darkblue;
+}
+
+.Nosotros {
+    text-align: justify;
+    line-height: 2.3em; /*Siguinicaque al tamaño de fuente lo va a multultiplicar 2 veces mas este seria la imagen*/
+}
+
+.center {
+    text-align: center;
+    
+}
+
+body {
+    background-color: aqua;
+}

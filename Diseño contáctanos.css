@@ -1,0 +1,35 @@
+.text-1 {
+    font-size: 60px; /*pixeles*/
+}
+
+.form-label-nombres {
+    font-size: 35px; /*pixeles*/
+}
+
+.form-label-teléfono {
+    font-size: 35px;
+}
+
+.form-label-asuntos {
+    font-size: 35px;
+}
+
+.enviar {
+    font-size: 35px;
+}
+
+.text-center-py-4-contáctanos {
+    font-size: 50px;
+    text-align: center;
+}
+
+.form-text-mensaje-a-mostrar {
+    font-size: 20px;
+}
+
+.btn-primary {
+    height: 70%;
+    margin: 3%;
+    width: 200px;
+    font-size: 30px;
+}

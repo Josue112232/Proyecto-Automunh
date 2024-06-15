@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoMuch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Estos link incluyen css y java de bootstrap-->
+
+    <link rel="stylesheet" href="Diseño de pantalla inicial.css">
+  </head>
+  <body>
+
+    <header> <!-- Representa el Encabezado-->
+        <div class="container"> <!--Lo utilizaremos para no usar toda la pantalla y solo usar el centro-->
+            <nav class="navbar navbar-expand-lg navbar-dark"> <!--navbar-dark lo utilizamos para el color de fondo del menu-->
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Automunch</a><!---->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span><!--Se va a activar cuando estemos visualizando esta página en dispositivos moviles-->
+                  </button><!---->
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!--  ms-auto nos declara el menu al lado derecho de manera automatica-->
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Ingresar.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Pantalla inicial.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Contáctanos.html">Contactanos</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servicios<!--Este despegable mostrara una serie de acciones-->
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Sabores disponibles.html">Sabores</a></li>
+                          <li><hr class="dropdown-divider"></li> <!--linea divisora-->
+                          <li><a class="dropdown-item" href="Productos Online.html">Pedido Online</a></li>
+                          <li><hr class="dropdown-divider"></li> <!--linea divisora-->
+                          <li><a class="dropdown-item" href="Entregas robot.html">Ser atendido</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <section class="carrusel de imagenes">
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/Helado de vainilla.jpg" width="1920" height="700" class="d-block w-100" alt=""> <!--la altura y anchura-->
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 style="font-size: 65px;">Sabores Innovadores</h2>
+                  <p style="font-size: 40px;">Helado de chicle.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/Variedad de helados.jpg" width="1920" height="700" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 style="font-size: 65px;">Variedades</h2>
+                  <p style="font-size: 40px;">Contamos con sabores espectaculares.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/Helado de chicle.jpg" width="1920" height="700" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 style="font-size: 65px;">Creatividad</h2>
+                  <p style="font-size: 40px;">Con nuestros sabores quedaras impactado.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+
+    <section class="Nosotros my-5">
+
+        <h2 class="text-center my-5"><!--Aplicamos un marggin en el eje y para separar-->¿Quiénes somos?</h2>
+        <div class="container">
+            <div class="row"> <!--fila-->
+                <div class="col-6">
+                    <p>Somos una mini empresa que busca satisfacer los gustos por medio de los helados, helados
+                        cuya calidad son expectaculares con sabores naturales. Buscamos una ronrisa, una satisfacción
+                        y nuevas experiencias para nuestros clientes.</p>
+
+                    <P>Gracias a nuestra innovación presentamos la mejor atención al cliente con nuesto robot llamado
+                        munch, haciendo cumplir las mejores expectativas para nuestros clientes.
+                    </P>
+                </div>
+                <div class="col-6">
+                    <img class="img-fluid" src="imagenes/Variedad de helados 2.0.jpg" width="800" height="0" alt=""><!--Img-fluid nospermite adactar la imagen sin que pegue en el borde-->
+                </div><!--la pantalla solo puede ocupar 12 columnas, entonces dividimos-->
+            </div>
+        </div>
+
+    </section>
+
+    <section class="Nosotros my-5">
+
+        <h2 class="text-center my-5"><!--Aplicamos un marggin en el eje y para separar-->Nuestros servicios</h2>
+        <div class="container">
+            <div class="row"> <!--fila-->
+                <div class="col-4">
+                    <div class="card text-center">
+                        <img src="imagenes/Automunch.jpg" width="500" height="300"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Robot</h5>
+                          <p class="card-text">Experimenta ser atentido por Munch.</p>
+                          <a href="Entregas robot.html" class="btn btn-primary text-center">Experimentar</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-4">
+
+                    <div class="card text-center">
+                        <img src="imagenes/Variedad de helados.jpg" width="500" height="300"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sabores</h5>
+                          <p class="card-text">Variedad de sabores.</p>
+                          <a href="Sabores disponibles.html" class="btn btn-primary text-center">Ver sabores</a>
+                        </div>
+                    </div>
+
+                </div><!--la pantalla solo puede ocupar 12 columnas, entonces dividimos-->
+
+                <div class="col-4">
+                    <div class="card text-center">
+                        <img src="imagenes/Pedidos online.jpg" width="500" height="300"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Online</h5>
+                          <p class="card-text">Realizar pedido online.</p>
+                          <a href="Productos Online.html" class="btn btn-primary text-center">Pedir Orden</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+  </body>
+</html>

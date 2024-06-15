@@ -1,0 +1,80 @@
+.Helado-con-chicle {
+    background-color: skyblue;
+}
+
+.Helado-de-chocolate-y-café {
+    background-color: burlywood;
+}
+
+.Helado-de-fresa {
+    background-color: rosybrown;
+}
+
+.Helado-de-leche-y-galleta {
+    background-color: lightyellow;
+}
+
+.Helado-de-vainilla {
+    background-color: yellow;
+}
+
+.Helado-de-zapote {
+    background-color: orange;
+}
+
+.form-label-nombres {
+    font-size: 35px; /*pixeles*/
+}
+
+.form-label-Cantidad {
+    font-size: 35px;
+}
+
+.form-label-Teléfono {
+    font-size: 35px;
+}
+
+.Dirección {
+    font-size: 35px;
+}
+
+.Referenvia {
+    font-size: 35px;
+}
+
+.text-center-py-4-chicle {
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-center-py-4-chocolate-y-café {
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-center-py-4-fresa {
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-center-py-4-leche-y-galleta {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.text-center-py-4-vainilla {
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-center-py-4-zapote {
+    font-size: 50px;
+    text-align: center;
+}
+.btn-primary {
+    height: 70%;
+    margin: 3%;
+    width: 200px;
+    font-size: 30px;
+}
